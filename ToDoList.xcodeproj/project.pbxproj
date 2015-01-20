@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2AA874C21A6C33DD00313F6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA874C11A6C33DD00313F6D /* AppDelegate.swift */; };
-		2AA874C41A6C33DD00313F6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA874C31A6C33DD00313F6D /* ViewController.swift */; };
 		2AA874C71A6C33DD00313F6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AA874C51A6C33DD00313F6D /* Main.storyboard */; };
 		2AA874C91A6C33DD00313F6D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AA874C81A6C33DD00313F6D /* Images.xcassets */; };
 		2AA874CC1A6C33DD00313F6D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AA874CA1A6C33DD00313F6D /* LaunchScreen.xib */; };
@@ -31,7 +30,6 @@
 		2AA874BC1A6C33DD00313F6D /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AA874C01A6C33DD00313F6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AA874C11A6C33DD00313F6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2AA874C31A6C33DD00313F6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2AA874C61A6C33DD00313F6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2AA874C81A6C33DD00313F6D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2AA874CB1A6C33DD00313F6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -84,7 +82,6 @@
 				2AA874E11A6C3DBD00313F6D /* ToDoList.swift */,
 				2AA874E31A6C3E7F00313F6D /* ToDoListItem.swift */,
 				2AA874C11A6C33DD00313F6D /* AppDelegate.swift */,
-				2AA874C31A6C33DD00313F6D /* ViewController.swift */,
 				2AA874C51A6C33DD00313F6D /* Main.storyboard */,
 				2AA874C81A6C33DD00313F6D /* Images.xcassets */,
 				2AA874CA1A6C33DD00313F6D /* LaunchScreen.xib */,
@@ -218,7 +215,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AA874C41A6C33DD00313F6D /* ViewController.swift in Sources */,
 				2AA874E21A6C3DBD00313F6D /* ToDoList.swift in Sources */,
 				2AA874E41A6C3E7F00313F6D /* ToDoListItem.swift in Sources */,
 				2AA874C21A6C33DD00313F6D /* AppDelegate.swift in Sources */,
@@ -413,6 +409,7 @@
 				2AA874DD1A6C33DD00313F6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2AA874DE1A6C33DD00313F6D /* Build configuration list for PBXNativeTarget "ToDoListTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +418,7 @@
 				2AA874E01A6C33DD00313F6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
